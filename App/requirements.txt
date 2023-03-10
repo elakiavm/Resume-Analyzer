@@ -35,7 +35,7 @@ MarkupSafe==2.1.1
 matplotlib==3.5.3
 murmurhash==1.0.8
 nltk==3.7
-numpy==1.23.2
+numpy
 packaging==21.3
 pafy==0.5.5
 pandas==1.4.4

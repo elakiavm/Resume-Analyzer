@@ -24,6 +24,3 @@ Run the ```App.py``` file using
 streamlit run App.py
 
 ```
-
-
-
