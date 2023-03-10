@@ -38,7 +38,7 @@ nltk==3.7
 numpy
 packaging==21.3
 pafy==0.5.5
-pandas==1.4.4
+pandas
 pathy==0.6.2
 pdfminer.six==20220524
 pdfminer3==2018.12.3.0
