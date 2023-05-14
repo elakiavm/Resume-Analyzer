@@ -233,12 +233,12 @@ def run():
         os_name_ver = platform.system() + " " + platform.release()
         g = geocoder.ip('me')
         latlong = g.latlng
-        geolocator = Nominatim(user_agent="geoapiExercises")
-        location = geolocator.reverse(latlong, language='en')
-        address = location.raw['address']
-        cityy = address.get('city', '')
-        statee = address.get('state', '')
-        countryy = address.get('country', '')  
+#         geolocator = Nominatim(user_agent="geoapiExercises")
+#         location = geolocator.reverse(latlong, language='en')
+        address = "India"
+        cityy = "Chennai"
+        statee = "Tamil Nadu"
+        countryy = "India"  
         city = cityy
         state = statee
         country = countryy
