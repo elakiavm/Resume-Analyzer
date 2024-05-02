@@ -96,7 +96,7 @@ def course_recommender(course_list):
 
 
 # sql connector
-connection = pymysql.connect(host='localhost',user='root',password='root',db='cv')
+connection = pymysql.connect(host='localhost',user='resume',password='data',db='cv')
 # connection = pymysql.connect(
 #     host = 'localhost',
 #     user = 'root',
@@ -738,7 +738,7 @@ def run():
         if st.button('Login'):
             
             ## Credentials 
-            if ad_user == 'admin' and ad_password == 'admin@resume-analyzer':
+            if ad_user == 'admin' and ad_password == '1234':
                 
                 ### Fetch miscellaneous data from user_data(table) and convert it into dataframe
                 cursor.execute('''SELECT ID, ip_add, resume_score, convert(Predicted_Field using utf8), convert(User_level using utf8), city, state, country from user_data''')
