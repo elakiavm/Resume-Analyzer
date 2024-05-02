@@ -791,8 +791,8 @@ def run():
                 # df["count"] = df["Predicted_Field"].value_counts()  # Count occurrences of each skill
                 
                 # Rest of your code for creating the pie chart using df and "count"
-                fig = px.pie(df, values="count", names=df.index, title='Predicted Field according to the Skills ', color_discrete_sequence=px.colors.sequential.Aggrnyl_r)
-                st.plotly_chart(fig)
+                #fig = px.pie(df, values="count", names=df.index, title='Predicted Field according to the Skills ', color_discrete_sequence=px.colors.sequential.Aggrnyl_r)
+               # st.plotly_chart(fig)
 
 
                 # Pie chart for predicted field recommendations
